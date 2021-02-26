@@ -5,7 +5,6 @@ public class Game2 {
         B.putPiece(new King("white"), "h1");
         B.putPiece(new Rook("black"), "e1");
         B.putPiece(new Bishop("white"), "h2");
-        B.putPiece(new Queen("black"), "a1");
         B.putPiece(new Pawn("white"), "f2");
         B.putPiece(new Pawn("white"), "g2");
         if (B.check("white"))
@@ -18,8 +17,8 @@ public class Game2 {
         if (B.checkMate("black"))
             System.out.println("Beyaz kazandi");
 
-        if (B.getPiece("a1").canMove("h8"))
-            B.getPiece("a1").setPosition("h8");
+
+        B.putPiece(new Queen("black"), "h8");
 
         if (B.checkMate("white"))
             System.out.println("Kazanan: Siyah");
