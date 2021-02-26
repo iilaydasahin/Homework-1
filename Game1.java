@@ -24,8 +24,6 @@ public class Game1 {
 
         if (B.getPiece("b6").canMove("d7"))
             B.getPiece("b6").setPosition("d7");
-        if (B.getPiece("b6") == null)
-            System.out.println("b6 bos");
 
         String[] moves = B.getPiece("c2").getAllMoves();
         for (String s: moves)
