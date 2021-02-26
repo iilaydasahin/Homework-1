@@ -17,7 +17,6 @@ public class Game2 {
         if (B.checkMate("black"))
             System.out.println("Beyaz kazandi");
 
-
         B.putPiece(new Queen("black"), "h8");
 
         if (B.checkMate("white"))
