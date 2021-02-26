@@ -1,7 +1,7 @@
 public class Game1 {
     public static void main(String[] args){
         Board B = new Board();
-        B.putPiece(new King("black"), "e8");
+        B.putPiece(new King("black"), "g8");
         B.putPiece(new Rook("black"), "e7");
         B.putPiece(new Knight("black"), "b6");
         B.putPiece(new King("white"), "c2");
