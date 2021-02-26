@@ -14,7 +14,7 @@ public class Game1 {
         if (B.check("black"))
             System.out.println("Siyahin sahi tehdit altinda");
         if (B.getPiece("b6").canMove("c8") && B.getPiece("c8") == null)
-            System.out.println("Siyahin ati c\'e hareket edebilir");
+            System.out.println("Siyahin ati c8\'e hareket edebilir");
         if (B.checkMate("white"))
             System.out.println("Siyah kazandi");
         if (B.checkMate("black"))
